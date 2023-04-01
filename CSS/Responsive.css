@@ -1,0 +1,433 @@
+/* X-Small devices (portrait phones, 320px to 576px) */
+
+@media only screen and ( min-width:300px) and (max-width:576.99px){
+    
+    /* navbar start*/
+    .navbar img {width: 120px; }
+    .navbar-toggler-icon { width: 1em;height: 1em;scale: 1;}
+    .navbar ul li a { background:#744fa0;padding-right: 0px; margin-left: 0; }
+    .navbar ul li a {color: none;}
+    .nav-link {color: none;}
+    .navbar ul li a:hover {color: #fff;}
+    .navbar button{background: white;}
+    .navbar img{vertical-align: 0;text-align: left; margin-left: 10px;}
+    .navbar ul li:last-child a {padding: 11px 0px 10px 0px !important;background: transparent;}
+    .navbar-toggler:focus {box-shadow:none;}
+    .navbar ul li:last-child a {background: #744fa0;}
+    .navbar-nav.ms-auto.mb-2.mb-lg-0 {text-align: center;width: 100%;}
+    .navbar-collapse {position: absolute;left: 0;top: 70px;width: 100%;}
+
+
+    /* banner responsive start*/
+    .banner_slider {padding: 60px 0px 20px 0px;}
+    .banner_slider2 {padding: 60px 0px 20px 0px;}
+    .banner_slider3 {padding: 60px 0px 20px 0px;}
+    .banner_1 .text a{color: #fff; background: #744fa0;}
+    #banner_section .banner_1 .text h2 {font-size: 50px; margin-top: 20px;}
+    #banner_section .banner_1 .text h1 { font-size: 36px;margin: 7px 0;}
+    #banner_section .banner_1 .text h1::after {width: 100%;bottom: -15px; }
+    #banner_section .banner_1 .text h3 {font-size: 14px;margin: 20px 0;}
+    #banner_section .col-lg-6{margin-left: 0px;}
+    #banner_section .banner_1 .text {text-align: center;}
+    #banner_section .banner_1 .text a { padding: 11px 25px 11px 55px;font-size: 13px;margin-left: 0px;scale: 0.8;}
+    #banner_section .slick-dots button{display: none;}
+    #banner_section .banner_1 .text a span {font-size: 13px;}
+    #banner_section .banner_1 .text a i {left: 17px;bottom: 15px;font-size: 38px;}
+    .banner_button {display: flex;justify-content: space-evenly;display: none;}
+
+    
+    /* About responsive start*/
+    #about_section { padding: 20px 0px 0px 0px;}
+    .pera {font-size: 15px; }
+     #about_section img {width: 60%;}
+     #about_section .col-lg-4.text-lg-center {text-align: center;}
+
+
+    /* featutes responsive start*/
+    #features .mt-5 {margin-top: -1.5rem !important;}
+    #features button {margin: 0px 0;font-size: 10px;padding-left: 33px;}
+    #features button span {margin-left: 2px;font-size: 8px; }
+    #features button i {font-size: 20px; }
+    #features .col-lg-5 {width: 50%;}
+    #features .col-lg-6.margingp {width: 50%; margin-top: 0;}
+    #features .margingp {margin-top:0px !important;}
+    .pera.mt-lg-5.text-lg-end {font-size: 10px; }
+    #features ::after{width: 100%;background: #744fa0;}
+    #features button::after {width: 100%;}
+    #features .col-lg-8.col-sm-12 {margin-top: 10px;}
+
+
+    /* screenshot responsive start*/
+    #app_screen {padding: 0px;}
+    #app_screen .swiper .swiper-slide img {width: 45%;}
+    #app_screen .swiper-wrapper li {display: none;}
+    /* video responsive start*/
+    #video_watch {margin-top: 0px;}
+    #video_watch .items {margin-top: 10px;margin-bottom: 10px; padding: 15px 0;}
+    #app_screen .swiper-slide { margin: 30px auto;}
+
+
+    /* pricing responsive start*/
+    #pricing .col-lg-3 {margin-top: -50px;}
+    #pricing {margin-bottom: -50px;}
+    #pricing .inner {margin-bottom: 100px;}
+    #pricing .main .inner h1 {background: #744fa0;color: #fff; line-height: 60px; font-size: 20px;}
+    #pricing .inner .app_link_text {padding: 10px 0px 30px 0px;}
+    #pricing .inner .app_link_text .app_link {margin: 5px 0;}
+
+
+    /* awesometeam responsive start*/
+    #awesome_team .row{margin-top: -35px;}
+    #awesome_team .main .image .icon a {height: 40px;width: 40px;}
+    #awesome_team {margin-bottom: -110px;}
+    #awesome_team .main{transform: translateY(-80px);border: 1px solid rgba(53, 53, 53, 0.4); margin-bottom: 20px ;}
+    #awesome_team .main .detailes .inner { transform: translateY(0px);}
+    #awesome_team .main .image::after {opacity: 0.7;}
+    #awesome_team .main .image .icon a {opacity: 1;scale: 1;}
+    #awesome_team .main .image .icon {position: absolute;top: 90%; width: 100%; text-align: center;}
+    #awesome_team .main .image::after {opacity: 0;}
+    #awesome_team .main:hover .image::after {opacity: 0;}
+    #awesome_team .main .image .icon a i {color: #fff;}
+    #awesome_team .main .image .icon a {background: #1da1f2;}
+    #awesome_team {margin-bottom: -70px;}
+    #awesome_team .main .detailes {padding: 0px 10px;}
+
+
+
+    /* testiomnial responsive start*/
+    #awesome_team .col-lg-6.offset-3 {margin: 0%; }
+    #testimonial .inner {width: 100%;padding: 35px 6px;}
+    #testimonial .img_slider .slick-current .img{scale: 1.3;}
+    #testimonial .img_slider .item .img {height: 80px;width: 80px;}
+    #testimonial .slick-dots {margin-top: -100px;margin-bottom: -55px;}
+    #testimonial .col-lg-10.offset-1 {margin-left: 0px;}
+    #testimonial .col-lg-6.offset-3 {margin-left: 0px;}
+    #testimonial .inner::after {bottom: -4%;left: 53%;}
+    #testimonial .slick-slide {margin: 0 10px;}
+
+
+    /* get awesome responsive start*/
+    #get_in_touch {margin: 10px 0;}
+    #get_in_touch .main {margin-top: -50px;}
+    #get_in_touch .col-lg-4 {margin: 10px 0;}
+    #get_in_touch .main input{text-align: center;}
+    #get_in_touch .main{width: 100%;}
+
+
+    /* footer responsive start*/
+    #footer {padding: 10px 0;}
+    #footer img{width: 40%;}
+    #footer .main .icon a {height: 30px;width: 30px;}
+    #footer .main .copuright p {font-size: 15px; margin-bottom: 0;}
+    #footer .main .icon {margin: 10px 0;}
+
+    
+
+}
+
+/* Small devices (portrait phones, 577px to 768px) */
+@media only screen and (min-width:577px) and (max-width:767.99px){
+        #about_section p {width: 80%;margin: auto;}
+        /* navbar start*/
+        .navbar img {width: 120px; }
+        .navbar-toggler-icon { width: 1em;height: 1em;scale: 1;}
+        .navbar ul li a { background:#744fa0;padding-right: 0px; margin-left: 0; }
+        .navbar ul li a {color: none;}
+        .nav-link {color: none;}
+        .navbar ul li a:hover {color: #fff;}
+        .navbar button{background: white;}
+        .navbar img{vertical-align: 0;text-align: left;}
+        .navbar ul li:last-child a {padding: 11px 0px 10px 0px !important;background: transparent;}
+        .navbar-toggler:focus {box-shadow:none;}
+        .navbar ul li:last-child a {background: #744fa0;}
+        .navbar-nav.ms-auto.mb-2.mb-lg-0 {text-align: center;width: 100%;}
+        .navbar-collapse {position: absolute;left: 0;top: 70px;width: 100%;}
+        
+        /* navbar end*/
+    
+        /* banner responsive start*/
+        .banner_slider {padding: 60px 0px 20px 0px;}
+        .banner_slider2 {padding: 60px 0px 20px 0px;}
+        .banner_slider3 {padding: 60px 0px 20px 0px;}
+        .banner_1 .text a{color: #fff; background: #744fa0;}
+        #banner_section .banner_1 .text h2 {font-size: 50px;}
+        #banner_section .banner_1 .text h1 { font-size: 36px;margin: 7px 0;}
+        #banner_section .banner_1 .text h1::after {width: 100%;bottom: -15px; }
+        #banner_section .banner_1 .text h3 {font-size: 14px;margin: 20px 0;}
+        #banner_section .col-lg-6{margin-left: 0px;}
+        #banner_section .banner_1 .text {text-align: center;}
+        #banner_section .banner_1 .text a { padding: 15px 25px 15px 55px;font-size: 15px; margin: 0 20px;}
+        #banner_section .slick-dots button{display: none;}
+        #banner_section .banner_1 .text a span {font-size: 15px;}
+        #banner_section .banner_1 .text a i {left: 17px;bottom: 20px;font-size: 38px;
+        }
+        /* banner responsive End*/
+        
+        /* About responsive start*/
+        #about_section { padding: 20px 0px 0px 0px;}
+        .pera {font-size: 15px; }
+         #about_section img {width: 70%;}
+         #about_section .col-lg-4.text-lg-center {text-align: center;}
+        /* About responsive End*/
+    
+        /* featutes responsive start*/
+        #features .mt-5 {margin-top: -2rem !important;}
+        #features button {margin: 4px 0;font-size: 15px; padding-left: 30px;}
+        #features button span {margin-left: 2px;font-size: 8px; }
+        #features button i {font-size: 20px; }
+        #features .col-lg-5 {width: 45%; margin-bottom: 20px;}
+        #features .col-lg-6.margingp {width: 50%; margin-top: 0;}
+        #features .margingp {margin-top: 0px !important;}
+        .pera.mt-lg-5.text-lg-end {font-size: 14px;text-align: right; }
+        #features ::after{width: 100%;background: #744fa0;}
+        #features button::after {width: 100%;}
+        #features .col-lg-8.col-sm-12 {margin-top: 10px;}
+        /* featutes responsive End*/
+    
+        /* screenshot responsive start*/
+        #app_screen {padding: 0px;}
+        #app_screen .swiper .swiper-slide img {width: 55%;}
+        #app_screen .swiper-wrapper li {display: none;}
+        /* screenshot responsive End*/
+        
+        /* video responsive start*/
+        #video_watch {margin-top: 0px;}
+        #video_watch .items {margin-top: 10px;margin-bottom: 10px; padding: 50px 0;}
+ 
+    
+        /* pricing responsive start*/
+        #pricing .col-lg-3 {margin-top: -50px; width: 50%;}
+        #pricing {margin-bottom: -50px;}
+        #pricing .inner {margin-bottom: 100px;}
+        #pricing .main .inner h1 {background: #744fa0;color: #fff; line-height: 60px; font-size: 20px;}
+        #pricing .inner .app_link_text {padding: 10px 0px 30px 0px;}
+        #pricing .inner .app_link_text .app_link {margin: 5px 0;}
+
+    
+        /* awesometeam responsive start*/
+        #awesome_team .row{margin-top: -35px;}
+        #awesome_team .main .image .icon a {height: 45px;width: 45px;}
+        #awesome_team {margin-bottom: -110px;}
+        #awesome_team .col-lg-4 {width: 50%; text-align: center;}
+        #awesome_team .main{transform: translateY(-80px);border: 1px solid rgba(53, 53, 53, 0.4); margin-bottom: 20px ;}
+        #awesome_team .main .detailes .inner { transform: translateY(0px);}
+        #awesome_team .main .image::after {opacity: 0.7;}
+        #awesome_team .main .image .icon a {opacity: 1;scale: 1;}
+        #awesome_team .main .image .icon {position: absolute;top: 90%; width: 100%;}
+        #awesome_team .main .image::after {opacity: 0;}
+        #awesome_team .main:hover .image::after {opacity: 0;}
+        #awesome_team .main .image .icon a i {color: #fff;}
+        #awesome_team .main .image .icon a {background: #1da1f2;}
+        #awesome_team {margin-bottom: -70px;}
+        #awesome_team .main .detailes {padding: 0px 10px;}
+        #awesome_team .main .detailes h1 {font-size: 20px;line-height: 30px;}
+        /* awesometeam responsive End*/
+    
+        /* testiomnial responsive start*/
+        #awesome_team .col-lg-6.offset-3 {margin: 0%; }
+        #testimonial .inner {width: 100%;padding: 35px 21px;}
+        #testimonial .img_slider .slick-current .img{scale: 1.3;}
+        #testimonial .img_slider .item .img {height: 100px;width: 100px;}
+        #testimonial .slick-dots {margin-top: -100px;margin-bottom: -55px;}
+        #testimonial .col-lg-10.offset-1 {margin-left: 0px;}
+        #testimonial .col-lg-6.offset-3 {margin-left: 0px;}
+        /* testiomnial responsive End*/
+    
+        /* get awesome responsive start*/
+        #get_in_touch {margin: 10px 0;}
+        #get_in_touch .main {margin-top: -50px;}
+        #get_in_touch .col-lg-4 {margin: 10px 0;}
+        #get_in_touch .main input{text-align: center ;}
+        #get_in_touch .main{width: 80%;}
+
+        /* footer responsive start*/
+        #footer {padding: 10px 0;}
+        #footer img{width: 40%;}
+        #footer .main .icon a {height: 30px;width: 30px;}
+        #footer .main .copuright p {font-size: 15px; margin-bottom: 0;}
+        #footer .main .icon {margin: 10px 0;}
+
+}
+/* Medium devices (portrait phones, 769px to 992px) */
+
+@media only screen and (min-width:768px) and (max-width:991.99px){
+    #about_section p {width: 80%;margin: auto;}
+    /* navbar start*/
+    .navbar img {width: 120px; }
+    .navbar-toggler-icon { width: 1em;height: 1em;scale: 1;}
+    .navbar ul li a { background:#744fa0;padding-right: 0px; margin-left: 0; }
+    .navbar ul li a {color: none;}
+    .nav-link {color: none;}
+    .navbar ul li a:hover {color: #fff;}
+    .navbar button{background: white;}
+    .navbar img{vertical-align: 0;text-align: left;}
+    .navbar ul li:last-child a {padding: 11px 0px 10px 0px !important;background: transparent;}
+    .navbar-toggler:focus {box-shadow:none;}
+    .navbar ul li:last-child a {background: #744fa0;}
+    .navbar-nav.ms-auto.mb-2.mb-lg-0 {text-align: center;width: 100%;}
+    .navbar-collapse {position: absolute;left: 0;top: 70px;width: 100%;}
+    
+
+    /* banner responsive start*/
+    .banner_slider {padding: 60px 0px 20px 0px;}
+    .banner_slider2 {padding: 60px 0px 20px 0px;}
+    .banner_slider3 {padding: 60px 0px 20px 0px;}
+    .banner_1 .text a{color: #fff; background: #744fa0;}
+    #banner_section .banner_1 .text h2 {font-size: 50px;}
+    #banner_section .banner_1 .text h1 { font-size: 36px;margin: 7px 0;}
+    #banner_section .banner_1 .text h1::after {width: 100%;bottom: -15px; }
+    #banner_section .banner_1 .text h3 {font-size: 14px;margin: 20px 0;}
+    #banner_section .col-lg-6{margin-left: 0px;}
+    #banner_section .banner_1 .text {text-align: center;}
+    #banner_section .banner_1 .text a { padding: 15px 25px 15px 55px;font-size: 15px; margin: 0 20px;}
+    #banner_section .slick-dots button{display: none;}
+    #banner_section .banner_1 .text a span {font-size: 15px;}
+    #banner_section .banner_1 .text a i {left: 17px;bottom: 20px;font-size: 38px;
+    }
+
+    
+    /* About responsive start*/
+    #about_section { padding: 20px 0px 0px 0px;}
+    .pera {font-size: 15px; }
+     #about_section img {width: 70%;}
+     #about_section .col-lg-4.text-lg-center {text-align: center;}
+
+
+    /* featutes responsive start*/
+    #features button {margin: 4px 0;font-size: 15px; padding-left: 30px;}
+    #features button span {margin-left: 2px;font-size: 8px; }
+    #features button i {font-size: 20px; }
+    #features .col-lg-5 {width: 50%; margin-bottom: 20px;}
+    #features .col-lg-6.margingp {width: 50%; margin-top: 0;}
+    #features .margingp {margin-top: 0px !important;}
+    .pera.mt-lg-5.text-lg-end {font-size: 14px;text-align: right; }
+    #features ::after{width: 100%;background: #744fa0;}
+    #features button::after {width: 100%;}
+    #features .col-lg-8.col-sm-12 {margin-top: 10px;}
+ 
+
+    /* screenshot responsive start*/
+    #app_screen {padding: 0px;}
+    #app_screen .swiper .swiper-slide img {width: 55%;}
+    #app_screen .swiper-wrapper li {display: none;}
+
+    
+    /* video responsive start*/
+    #video_watch {margin-top: 0px;}
+    #video_watch .items {margin-top: 10px;margin-bottom: 10px; padding: 50px 0;}
+
+
+    /* pricing responsive start*/
+    #pricing .col-lg-3 {margin-top: -50px; width: 50%;}
+    #pricing {margin-bottom: -50px;}
+    #pricing .inner {margin-bottom: 100px;}
+    #pricing .main .inner h1 {background: #744fa0;color: #fff; }
+
+
+    /* awesometeam responsive start*/
+    #awesome_team .row{margin-top: -35px;}
+    #awesome_team .main .image .icon a {height: 45px;width: 45px;}
+    #awesome_team {margin-bottom: -110px;}
+    #awesome_team .col-lg-4 {text-align: center;}
+    #awesome_team .main{transform: translateY(-80px);border: 1px solid rgba(53, 53, 53, 0.4); margin-bottom: 20px ;}
+    #awesome_team .main .detailes .inner { transform: translateY(0px);}
+    #awesome_team .main .image::after {opacity: 0.7;}
+    #awesome_team .main .image .icon a {opacity: 1;scale: 1;}
+    #awesome_team .main .image .icon {position: absolute;top: 90%; width: 100%;}
+    #awesome_team .main .image::after {opacity: 0;}
+    #awesome_team .main:hover .image::after {opacity: 0;}
+    #awesome_team .main .image .icon a i {color: #fff;}
+    #awesome_team .main .image .icon a {background: #1da1f2;}
+    #awesome_team {margin-bottom: -70px;}
+    #awesome_team .main .detailes {padding: 0px 10px;}
+    #awesome_team .main .detailes h1 {font-size: 20px;line-height: 30px;}
+
+
+    /* testiomnial responsive start*/
+    #awesome_team .col-lg-6.offset-3 {margin: 0%; }
+    #testimonial .inner {width: 100%;padding: 35px 21px;}
+    #testimonial .img_slider .slick-current .img{scale: 1.3;}
+    #testimonial .img_slider .item .img {height: 100px;width: 100px;}
+    #testimonial .slick-dots {margin-top: -100px;margin-bottom: -55px;}
+    #testimonial .col-lg-10.offset-1 {margin-left: 0px;}
+    #testimonial .col-lg-6.offset-3 {margin-left: 0px;}
+
+
+    /* get awesome responsive start*/
+    #get_in_touch {margin: 10px 0;}
+    #get_in_touch .main {margin-top: -50px; width:80%; }
+    #get_in_touch .col-lg-4 {margin: 10px 0;}
+
+
+    #footer {padding: 10px 0;}
+    #footer img{width: 40%;}
+    #footer .main .icon a {height: 30px;width: 30px;}
+    #footer .main .copuright p {font-size: 15px; margin-bottom: 0;}
+    #footer .main .icon {margin: 10px 0;}
+
+}
+
+
+/* Large devices (portrait phones, 993px to 1200px) */
+@media only screen and (min-width:992px) and (max-width:1199.99px){
+    
+    .navbar ul li a {margin-left: 24px;}
+
+       /* banner responsive start*/
+
+       #banner_section .col-lg-6{margin-right: 0px; width: 48%;}
+       #banner_section .banner_1 .text a i {left: 13px;}
+       #banner_section .banner_1 .text h1 {font-size: 32px;}
+       #banner_section .banner_1 .text {text-align: center;}
+       #banner_section .banner_1 .text a { padding: 15px 25px 15px 55px;font-size: 15px;}
+
+
+     /* About responsive start*/
+     #about_section { padding: 20px 0px 0px 0px;}
+      #about_section img {width: 100%;}
+      #about_section .col-lg-8 {width: 50%;}
+      #about_section .col-lg-4.text-lg-center {text-align: center; width: 50%;}
+
+
+        /* featutes responsive start*/
+        
+        #features button {margin: 4px 0;font-size: 16px; padding-left: 40px;}
+        #features button span {font-size: 10px; }
+        #features button i {font-size: 30px; }
+        #features .col-lg-5 {width: 50%; margin-top: 0;}
+        #features .col-lg-6.margingp {width: 50%; margin-top: 0;}
+        #features .margingp {margin-top: 0px !important;}
+        #features .pera.mt-lg-5.text-lg-end {font-size: 15px;text-align: right; }
+
+          /* pricing responsive start*/
+          #pricing .col-lg-3 {margin-top: 50px; width: 33%;}
+          #pricing .inner { margin: 0px 0px;}
+          #pricing {margin-bottom: 0px;}
+          
+          /* Get in Touch responsive start*/
+          #get_in_touch .main {width: 80%;}
+
+             /* footer responsive start*/
+             #footer img {width: 40%;}
+    
+}
+
+/* -----------responsive 1001 to 1400----------- */
+@media only screen and (min-width:1200px) and (max-width:1500px){
+    /* banner responsive start*/
+
+    #banner_section .col-lg-6{margin-right: 0px; width: 48%;}
+    #banner_section .banner_1 .text a i {left: 13px;}
+    #banner_section .banner_1 .text h1 {font-size: 32px;}
+    #banner_section .banner_1 .text {text-align: center;}
+    #banner_section .banner_1 .text a { padding: 15px 25px 15px 55px;font-size: 15px;}
+
+
+ /* banner responsive start*/
+ 
+ #about_section .col-lg-8 {width: 60%;}
+ 
+ /* footer responsive start*/
+ #footer img {width: 40%;}
+
+}
